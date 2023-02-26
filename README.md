@@ -1,4 +1,6 @@
 # Módulo con distintos compendios para Crónicas de la Marca
+![Portada de Crónicas de la Marca](https://i.imgur.com/RLvz0gC.png)
+
 En este módulo podréis encontrar distintas colecciones que os facilitaran el crear y jugar partidas en Foundry para Crónicas de la Marca.
 
 ## ¿Qué es Crónicas de la Marca?
