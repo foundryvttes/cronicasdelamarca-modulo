@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
+      
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
@@ -40,7 +40,7 @@ jobs:
         uses: TheDoctor0/zip-release@0.6.1
         with:
           # Filename for archive
-          filename: 'macros.zip'
+          filename: 'cronicasdelamarca_modulo.zip'
           # Base path for archive files
           path: '.'
           # Working directory before zipping
@@ -53,7 +53,7 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: my-artifact
-          path: ${{ github.workspace }}/cronicasdelamarca-modulo.zip
+          path: ${{ github.workspace }}/cronicasdelamarca_modulo.zip
           
       - name: Bump version and push tag
         id: tag_version
@@ -66,7 +66,7 @@ jobs:
         with:
           file: module.json
           field: download
-          value: https://github.com/foundryvttes/cronicasdelamarca-modulo/releases/download/${{ steps.tag_version.outputs.new_tag }}/cronicasdelamarca-modulo.zip
+          value: https://github.com/foundryvttes/cronicasdelamarca-modulo/releases/download/${{ steps.tag_version.outputs.new_tag }}/cronicasdelamarca_modulo.zip
 
       - name: Commit files
         run: |
