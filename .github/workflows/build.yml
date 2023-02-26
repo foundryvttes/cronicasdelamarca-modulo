@@ -73,7 +73,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "docs(): bumping release ${{ steps.tag_version.outputs.new_tag }}"
+          git commit -m "Nueva versión ${{ steps.tag_version.outputs.new_tag }} generada."
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
@@ -86,5 +86,5 @@ jobs:
         with:
           tag: ${{ steps.tag_version.outputs.new_tag }}
           artifacts: "*.zip"
-          body: "Test"
+          body: "Versión automática generada. Por favor, si quiere conocer los detalles de esta nueva versión compruebe en el historial de cambios."
           token: ${{ secrets.GITHUB_TOKEN }}
