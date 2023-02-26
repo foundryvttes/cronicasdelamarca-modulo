@@ -1,0 +1,80 @@
+{
+    "name": "cronicasdelamarca_modulo",
+    "title": "Módulo de Crónicas de la Marca",
+    "description": "A module containing the exported Módulo de Crónicas de la Marca compendium.",
+    "version": "0.0.1",
+    "library": "false",
+    "manifestPlusVersion": "0.0.1",
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 11
+    },
+    "authors": [
+        {
+            "name": "Elfonochasis",
+            "email": "",
+            "url": ""
+        }
+    ],
+    "packs": [
+        {
+            "type": "Actor",
+            "label": "Bestiario",
+            "module": "cronicasdelamarca_modulo",
+            "path": "packs/cronicas-test-bestiario-1677407807492.db",
+            "name": "cronicas-test-bestiario-1677407807492",
+            "system": "castles-and-crusades"
+        },
+        {
+            "type": "Item",
+            "label": "Armas",
+            "module": "cronicasdelamarca_modulo",
+            "path": "packs/cronicas-test-armas-1677407807492.db",
+            "name": "cronicas-test-armas-1677407807492",
+            "system": "castles-and-crusades"
+        },
+        {
+            "type": "Item",
+            "label": "Armaduras",
+            "module": "cronicasdelamarca_modulo",
+            "path": "packs/cronicas-test-armaduras-1677407807492.db",
+            "name": "cronicas-test-armaduras-1677407807492",
+            "system": "castles-and-crusades"
+        },
+        {
+            "type": "Item",
+            "label": "Hechizos",
+            "module": "cronicasdelamarca_modulo",
+            "path": "packs/cronicas-test-hechizos-1677407807492.db",
+            "name": "cronicas-test-hechizos-1677407807492",
+            "system": "castles-and-crusades"
+        },
+        {
+            "type": "Item",
+            "label": "Equipo",
+            "module": "cronicasdelamarca_modulo",
+            "path": "packs/cronicas-test-equipo-1677407807492.db",
+            "name": "cronicas-test-equipo-1677407807492",
+            "system": "castles-and-crusades"
+        },
+        {
+            "type": "Item",
+            "label": "Habilidades especiales",
+            "module": "cronicasdelamarca_modulo",
+            "path": "packs/cronicas-test-habilidades-especiales-1677407807492.db",
+            "name": "cronicas-test-habilidades-especiales-1677407807492",
+            "system": "castles-and-crusades"
+        },
+        {
+            "type": "RollTable",
+            "label": "Tablas",
+            "module": "cronicasdelamarca_modulo",
+            "path": "packs/cronicas-test-tablas-1677407807492.db",
+            "name": "cronicas-test-tablas-1677407807492",
+            "system": "castles-and-crusades"
+        }
+    ],
+    "manifest": "https://raw.githubusercontent.com/foundryvttes/cronicasdelamarca-modulo/main/module.json",
+    "download": "https://github.com/foundryvttes/cronicasdelamarca-modulo/releases/download/0.0.1/cronicasdelamarca-modulo.zip"
+}
