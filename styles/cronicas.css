@@ -1,0 +1,12 @@
+#logo {
+    content: url(../assets/logo.png);
+	height: 60px;
+}
+.window-app .window-content {
+    background: url(../assets/background.webp) repeat;
+}
+
+.tlgbackground {
+    background: none;
+    background-repeat: no-repeat;
+}

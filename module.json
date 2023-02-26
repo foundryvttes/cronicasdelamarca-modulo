@@ -17,6 +17,7 @@
             "url": ""
         }
     ],
+	"styles":["styles/cronicas.css"],
     "packs": [
         {
             "type": "Actor",
